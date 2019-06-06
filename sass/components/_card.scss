@@ -64,17 +64,17 @@
 
         &-1{
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url(../img/nat-5.jpg);
+            url(../img/Treasure.jpg);
         }
 
         &-2{
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url(../img/nat-6.jpg);
+            url(../img/code-with-friends.png);
         }
 
         &-3{
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            url(../img/nat-7.jpg);
+            url(../img/react-clicky-game.png);
         }
     }
 
@@ -141,9 +141,15 @@
         margin-bottom: 8rem;
     }
 
-    &__price-only {
+    &__skill-used {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    &__skills {
         font-size: 1.4rem;
         text-transform: uppercase;
+        list-style: none;
     }
 
     &__price-value {
