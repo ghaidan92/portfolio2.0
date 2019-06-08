@@ -516,6 +516,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1500;
+  visibility: hidden;
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
@@ -556,6 +557,7 @@ body {
   transform: scale(80); }
 
 .navigation__checkbox:checked ~ .navigation__nav {
+  visibility: visible;
   opacity: 1;
   width: 100%; }
 
