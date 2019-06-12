@@ -24,6 +24,12 @@
         }
     }
 
+    &__text {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        list-style: none !important;
+    }
+
     &:hover {
         transform: translateY(-1.5rem) scale(1.03);
     }

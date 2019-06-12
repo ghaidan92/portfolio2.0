@@ -628,28 +628,12 @@ body {
     @media (max-width: 56.25em) {
       .feature-box__icon {
         padding: 0; } }
+  .feature-box__text {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    list-style: none !important; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
-
-.heading-hobbies {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline-block;
-  background-image: linear-gradient(to right, #2e4db4, #2a5242);
-  -webkit-background-clip: text;
-  color: transparent;
-  letter-spacing: 2px;
-  transition: all .2s; }
-  @media (max-width: 56.25em) {
-    .heading-hobbies {
-      font-size: 2.5rem; } }
-  @media (max-width: 37.5em) {
-    .heading-hobbies {
-      font-size: 2rem; } }
-  .heading-hobbies:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
-    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .navigation__checkbox {
   display: none; }
