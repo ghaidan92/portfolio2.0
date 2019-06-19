@@ -13,6 +13,12 @@
     <link rel="shortcut icon" type="image/png" href="img/GlogoMain.png">
 
     <title>Ghaidan Alhubaishi</title>
+
+    <script>
+        function closeNav() {
+            document.getElementById("navi-toggle").checked = false;
+        }
+    </script>
 </head>
 
 <body>
@@ -27,12 +33,15 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>*</span>Work in Progress</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Hobbies</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular projects</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Contact Me!</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>*</span>Work in Progress</a>
+                </li>
+                <li class="navigation__item"><a href="#about" class="navigation__link" onclick="closeNav()"><span>01</span>About</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link" onclick="closeNav()"><span>02</span>Skills</a></li>
+                <li class="navigation__item"><a href="#projects" class="navigation__link" onclick="closeNav()"><span>03</span>Popular
+                        projects</a></li>
+                <li class="navigation__item"><a href="#stories" class="navigation__link" onclick="closeNav()"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="#contact" class="navigation__link" onclick="closeNav()"><span>05</span>Contact Me!</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -62,7 +71,7 @@
 
             <div class="row">
                 <div class="col-1-of-2">
-                    <h3 class="heading-tertiary u-margin-bottom-small">About Me</h3>
+                    <h3 class="heading-tertiary u-margin-bottom-small" id="about">About Me</h3>
                     <p class="paragraph">
                         I am a web developer with a vast array of knowledge in many different front end and back end
                         languages, responsive frameworks, databases, and best code practices. My goal is to be the best
@@ -96,31 +105,31 @@
                     My hobbies
                 </h2>
             </div> -->
-            <div class="row">
+            <div class="row" id="skills">
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-world"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Languages</h3>
-                            <ul class="feature-box__text">
-                                <li class="feature-box__text">Javascript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>C#</li>
-                                <li>&nbsp;</li>
-                            </ul>
+                        <ul class="feature-box__text">
+                            <li class="feature-box__text">Javascript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>C#</li>
+                            <li>&nbsp;</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-1-of-4">
                     <div class="feature-box">
                         <i class="feature-box__icon icon-basic-notebook"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Frameworks</h3>
-                            <ul class="feature-box__text">
-                                <li>ReactJS</li>
-                                <li>Bootstrap</li>
-                                <li>JQuery</li>
-                                <li>UIKit</li>
-                                <li>VueJs</li>
-                            </ul>
+                        <ul class="feature-box__text">
+                            <li>ReactJS</li>
+                            <li>Bootstrap</li>
+                            <li>JQuery</li>
+                            <li>UIKit</li>
+                            <li>VueJs</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-1-of-4">
@@ -149,7 +158,7 @@
             </div>
         </section>
 
-        <section class="section-tours" id="section-tours">
+        <section class="section-tours" id="projects">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular projects
@@ -189,7 +198,8 @@
                                         <li>CSS</li>
                                     </ul>
                                 </div>
-                                <a href="https://treasure-react-app.herokuapp.com/" class="btn btn--white btn--animated">GO TO SITE!</a>
+                                <a href="https://treasure-react-app.herokuapp.com/"
+                                    class="btn btn--white btn--animated">GO TO SITE!</a>
                             </div>
                         </div>
                     </div>
@@ -229,7 +239,8 @@
                                         <li>ExpressJs</li>
                                     </ul>
                                 </div>
-                                <a href="https://friendscoding.herokuapp.com/" class="btn btn--white btn--animated">GO TO SITE!</a>
+                                <a href="https://friendscoding.herokuapp.com/" class="btn btn--white btn--animated">GO
+                                    TO SITE!</a>
                             </div>
                         </div>
                     </div>
@@ -263,7 +274,8 @@
                                         <li>BootStrap</li>
                                     </ul>
                                 </div>
-                                <a href="https://ghaidan92.github.io/project-centurion/" class="btn btn--white btn--animated">GO TO SITE!</a>
+                                <a href="https://ghaidan92.github.io/project-centurion/"
+                                    class="btn btn--white btn--animated">GO TO SITE!</a>
                             </div>
                         </div>
                     </div>
@@ -293,7 +305,7 @@
                 </h2>
             </div>
 
-            <div class="row">
+            <div class="row" id="stories">
                 <div class="story">
                     <figure class="story__shape">
                         <img src="img/nat-8.jpg" alt="person on a tour" class="story__image">
@@ -331,7 +343,7 @@
         </section>
 
         <section class="section-book">
-            <div class="row">
+            <div class="row" id="contact">
                 <div class="book">
                     <div class="book__form">
                         <form action="#" class="form">
