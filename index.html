@@ -346,24 +346,24 @@
             <div class="row" id="contact">
                 <div class="book">
                     <div class="book__form">
-                        <form action="#" class="form">
+                        <form method="post" id="contact-form" action="form-handler.php" class="form">
                             <div class="u-margin-bottom-medium">
                                 <h2 class="heading-secondary">
                                     Get in touch
                                 </h2>
                             </div>
                             <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                                <input name="name" type="text" class="form__input" placeholder="Full Name" id="name" required>
                                 <label for="name" class="form__label">Full Name</label>
                             </div>
 
                             <div class="form__group">
-                                <input type="email" class="form__input" placeholder="Email Address" id="email" required>
+                                <input name="email" type="email" class="form__input" placeholder="Email Address" id="email" required>
                                 <label for="email" class="form__label">Email Address</label>
                             </div>
 
                             <div class="form__group">
-                                <textarea rows="4" type="text" class="form__input" placeholder="Message" id="message"
+                                <textarea name="message" rows="4" type="text" class="form__input" placeholder="Message" id="message"
                                     required></textarea>
                                 <label for="message" class="form__label">Message</label>
                             </div>
@@ -385,11 +385,11 @@
                                     </label>
                                 </div>
                             </div> -->
-
-                            <div class="form__group">
-                                <!-- <button href="#popup" class="btn btn--green">Send &rarr;</button> -->
-                                <a href="#popup" class="btn btn--green">Send &rarr;</a>
-                            </div>
+                            <!-- <input  type="submit" class="form__input submit" value="SEND MESSAGE"> -->
+                            <!-- <div class="form__group">
+                                 <button href="#popup" class="btn btn--green">Send &rarr;</button> -->
+                                <a href="mailto:ghaidan@iamghaidan.com" class="btn btn--green">Send &rarr;</a>
+                            <!-- </div> -->
                         </form>
                     </div>
                 </div>
