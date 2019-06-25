@@ -33,14 +33,20 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link" onclick="closeNav()"><span>00</span>Home</a>
+                <li class="navigation__item"><a href="#" class="navigation__link"
+                        onclick="closeNav()"><span>00</span>Home</a>
                 </li>
-                <li class="navigation__item"><a href="#about" class="navigation__link" onclick="closeNav()"><span>01</span>About</a></li>
-                <li class="navigation__item"><a href="#skills" class="navigation__link" onclick="closeNav()"><span>02</span>Skills</a></li>
-                <li class="navigation__item"><a href="#projects" class="navigation__link" onclick="closeNav()"><span>03</span>Popular
+                <li class="navigation__item"><a href="#about" class="navigation__link"
+                        onclick="closeNav()"><span>01</span>About</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link"
+                        onclick="closeNav()"><span>02</span>Skills</a></li>
+                <li class="navigation__item"><a href="#projects" class="navigation__link"
+                        onclick="closeNav()"><span>03</span>Popular
                         projects</a></li>
-                <li class="navigation__item"><a href="#stories" class="navigation__link" onclick="closeNav()"><span>04</span>Stories</a></li>
-                <li class="navigation__item"><a href="mailto:ghaidan@iamghaidan.com" class="navigation__link" onclick="closeNav()"><span>05</span>Contact Me!</a>
+                <li class="navigation__item"><a href="#stories" class="navigation__link"
+                        onclick="closeNav()"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="mailto:ghaidan@iamghaidan.com" class="navigation__link"
+                        onclick="closeNav()"><span>05</span>Contact Me!</a>
                 </li>
             </ul>
         </nav>
@@ -200,6 +206,7 @@
                                 </div>
                                 <a href="https://treasure-react-app.herokuapp.com/"
                                     class="btn btn--white btn--animated">GO TO SITE!</a>
+                                <a href="https://github.com/ghaidan92/treasure-3" target="_blank" class="card__git btn btn--green btn--animated">GO TO Github!</a>
                             </div>
                         </div>
                     </div>
@@ -241,6 +248,7 @@
                                 </div>
                                 <a href="https://friendscoding.herokuapp.com/" class="btn btn--white btn--animated">GO
                                     TO SITE!</a>
+                                <a href="https://github.com/ghaidan92/code-with-friends" target="_blank" class="card__git btn btn--green btn--animated">GO TO Github!</a>
                             </div>
                         </div>
                     </div>
@@ -276,6 +284,7 @@
                                 </div>
                                 <a href="https://ghaidan92.github.io/project-centurion/"
                                     class="btn btn--white btn--animated">GO TO SITE!</a>
+                                <a href="https://github.com/ghaidan92/project-centurion" target="_blank" class="card__git btn btn--green btn--animated">GO TO Github!</a>
                             </div>
                         </div>
                     </div>
@@ -346,25 +355,27 @@
             <div class="row" id="contact">
                 <div class="book">
                     <div class="book__form">
-                        <form method="post" id="contact-form" action="form-handler.php" class="form">
+                        <form method="post" id="contact-form" action="./form-handler.php" class="form">
                             <div class="u-margin-bottom-medium">
                                 <h2 class="heading-secondary">
                                     Get in touch
                                 </h2>
                             </div>
                             <div class="form__group">
-                                <input name="name" type="text" class="form__input" placeholder="Full Name" id="name" required>
+                                <input name="name" type="text" class="form__input" placeholder="Full Name" id="name"
+                                    required>
                                 <label for="name" class="form__label">Full Name</label>
                             </div>
 
                             <div class="form__group">
-                                <input name="email" type="email" class="form__input" placeholder="Email Address" id="email" required>
+                                <input name="email" type="email" class="form__input" placeholder="Email Address"
+                                    id="email" required>
                                 <label for="email" class="form__label">Email Address</label>
                             </div>
 
                             <div class="form__group">
-                                <textarea name="message" rows="4" type="text" class="form__input" placeholder="Message" id="message"
-                                    required></textarea>
+                                <textarea name="message" rows="4" type="text" class="form__input" placeholder="Message"
+                                    id="message" required></textarea>
                                 <label for="message" class="form__label">Message</label>
                             </div>
 
@@ -388,8 +399,8 @@
                             <!-- <input  type="submit" class="form__input submit" value="SEND MESSAGE"> -->
                             <!-- <div class="form__group">
                                  <button href="#popup" class="btn btn--green">Send &rarr;</button> -->
-                                <!-- <a href="mailto:ghaidan@iamghaidan.com" class="btn btn--green">Send &rarr;</a> -->
-                                <button type="submit" class="btn btn--green">Send &rarr;</button>
+                            <!-- <a href="mailto:ghaidan@iamghaidan.com" class="btn btn--green">Send &rarr;</a> -->
+                            <button type="submit" class="btn btn--green">Send &rarr;</button>
                             <!-- </div> -->
                         </form>
                     </div>

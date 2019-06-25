@@ -388,6 +388,8 @@ body {
     transform: translate(-50%, -50%);
     width: 90%;
     text-align: center; }
+  .card__git {
+    margin-top: 2rem; }
   .card__price-box {
     text-align: center;
     color: #fff;
